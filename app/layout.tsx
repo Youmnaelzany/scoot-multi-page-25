@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Lexend_Deca, Space_Mono } from "next/font/google";
 
+import Header from "@/components/Header";
+
 import "./globals.css";
 
 const spaceMono = Space_Mono({
@@ -33,6 +35,7 @@ export default function RootLayout({
         suppressHydrationWarning
         className={`${lexendDeca.variable} ${spaceMono.variable} mx-auto max-w-7xl antialiased`}
       >
+        <Header />
         {children}
       </body>
     </html>
