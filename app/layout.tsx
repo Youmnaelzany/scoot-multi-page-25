@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Lexend_Deca, Space_Mono } from "next/font/google";
 
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
 import "./globals.css";
@@ -37,6 +38,7 @@ export default function RootLayout({
       >
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
