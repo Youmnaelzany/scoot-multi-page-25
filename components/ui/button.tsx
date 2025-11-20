@@ -21,7 +21,7 @@ const buttonVariants = cva(
           "hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50",
         link: "text-primary underline-offset-4 hover:underline",
         yellow:
-          "rounded-none bg-[#FCB72B] text-white hover:bg-transparent hover:border hover:border-[#FCB72B] hover:text-[#FCB72B] font-space-mono tracking-normal leading-6.25 text-[0.9375rem]",
+          "rounded-none bg-[#FCB72B] text-white hover:bg-transparent hover:border hover:border-[#FCB72B] hover:text-[#FCB72B] font-space-mono tracking-normal leading-6.25 text-[0.9375rem] duration-300 transition-colors ease-in-out",
       },
       size: {
         default: "h-9 px-4 py-2 has-[>svg]:px-3",

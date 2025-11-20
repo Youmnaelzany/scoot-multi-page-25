@@ -10,7 +10,11 @@ const YellowButton = ({
   className?: string;
 }) => {
   return (
-    <Button variant={"yellow"} size={"lg"} className={cn("", className)}>
+    <Button
+      variant={"yellow"}
+      size={"lg"}
+      className={cn("cursor-pointer", className)}
+    >
       {children}
     </Button>
   );
