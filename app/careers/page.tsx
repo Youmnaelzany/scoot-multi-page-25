@@ -1,4 +1,5 @@
 import Jobs from "@/components/Jobs";
+import JoinUs from "@/components/JoinUs";
 import PageTitles from "@/components/PageTitles";
 
 export default function CareersPage() {
@@ -7,6 +8,7 @@ export default function CareersPage() {
       <PageTitles className="bg-[url('/images/careers-location-hero-mobile.jpg')] bg-cover bg-no-repeat md:bg-[url('/images/careers-locations-hero-tablet.jpg')] lg:bg-[url('/images/careers-locations-hero-desktop.jpg')]">
         Careers
       </PageTitles>
+      <JoinUs />
       <Jobs />
     </main>
   );
