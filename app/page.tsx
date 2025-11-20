@@ -1,3 +1,9 @@
+import HomeIntro from "@/components/HomeIntro";
+
 export default function Home() {
-  return <main className="">Hello</main>;
+  return (
+    <main className="">
+      <HomeIntro />
+    </main>
+  );
 }
