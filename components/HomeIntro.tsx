@@ -28,14 +28,14 @@ const HomeIntro = () => {
       />{" "}
       <Image
         src="/patterns/right-arrow.svg"
-        alt="white circles pattern"
+        alt="right arrow"
         width={380}
         height={151}
         className="absolute bottom-10 left-0 hidden md:flex lg:bottom-42 lg:left-150"
       />{" "}
       <Image
         src="/patterns/line.svg"
-        alt="white circles pattern"
+        alt="line"
         width={203}
         height={15}
         className="absolute hidden lg:bottom-70 lg:-left-20 lg:flex"
