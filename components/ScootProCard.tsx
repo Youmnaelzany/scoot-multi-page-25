@@ -46,7 +46,7 @@ export default function ScootProCard({
       />
 
       <div className="flex flex-col items-center justify-center gap-8 text-center md:max-w-[573px] md:gap-10 lg:max-w-[445px] lg:items-start lg:text-left">
-        <h2 className="font-space-mono text-[2rem] leading-8 font-bold tracking-[-1.43px] text-[#495567] md:text-[3rem] md:leading-12 md:tracking-[-2.14px]">
+        <h2 className="font-space-mono max-w-[457px] text-[2rem] leading-8 font-bold tracking-[-1.43px] text-[#495567] md:text-[3rem] md:leading-12 md:tracking-[-2.14px]">
           {title}
         </h2>
         <p className="font-lexend-deca text-[0.9375rem] leading-6.25 tracking-normal text-[#939CAA]">

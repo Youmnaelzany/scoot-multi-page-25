@@ -23,7 +23,7 @@ export default function AboutPage() {
           />
         ))}
       </section>
-      <JoinUs />
+      <JoinUs page="about" />
       <FaqsAnswers />
     </main>
   );

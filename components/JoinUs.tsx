@@ -2,11 +2,17 @@ import Image from "next/image";
 
 import { OUR_VALUE } from "@/lib/constants";
 
-const JoinUs = () => {
+interface JoinUsProps {
+  page?: "about" | "careers";
+}
+
+const JoinUs = ({ page = "careers" }: JoinUsProps) => {
+  const heading = page === "about" ? "Our values" : "Why join us?";
+
   return (
     <section className="flex flex-col items-center justify-center gap-16 px-7 pt-30 md:px-10 lg:px-16 lg:pt-40">
       <h2 className="font-space-mono text-center text-[2rem] leading-8 font-bold tracking-[-1.43px] text-[#495567] md:text-5xl md:leading-12 md:tracking-[-2.14px]">
-        Why join us?
+        {heading}
       </h2>
       <div className="flex flex-col items-center justify-center gap-10 lg:flex-row lg:items-start lg:justify-between">
         {OUR_VALUE.map((values) => (

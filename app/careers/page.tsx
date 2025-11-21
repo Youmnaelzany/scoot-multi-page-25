@@ -23,7 +23,7 @@ export default function CareersPage() {
           />
         ))}
       </section>
-      <JoinUs />
+      <JoinUs page="careers" />
       <Jobs />
     </main>
   );
