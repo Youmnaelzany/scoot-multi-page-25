@@ -2,13 +2,16 @@ import Image from "next/image";
 
 import YellowButton from "./YellowButton";
 
+// Update the interface to make arrowPattern required since it's being used
 interface ScootProCardProps {
   icon: string;
   title: string;
   description: string;
   pattern: string;
-  patternPosition: string; // Tailwind classes
+  patternPosition: string;
   specialClass?: string[];
+  arrowPattern: string; // Made required since it's being used
+  arrowPatternPosition: string;
 }
 
 export default function ScootProCard({
@@ -18,6 +21,8 @@ export default function ScootProCard({
   pattern,
   patternPosition,
   specialClass,
+  arrowPattern,
+  arrowPatternPosition,
 }: ScootProCardProps) {
   return (
     <article className={specialClass?.join(" ")}>
@@ -29,6 +34,17 @@ export default function ScootProCard({
         width={311}
         height={311}
         className={`pointer-events-none z-10 hidden h-[311px] w-[311px] md:block md:h-[445px] md:w-[445px] ${patternPosition}`}
+        loading="lazy"
+      />
+
+      {/* Arrow Pattern (decorative) */}
+      <Image
+        src={arrowPattern}
+        alt=""
+        role="presentation"
+        width={741}
+        height={151}
+        className={`pointer-events-none h-[151px] w-[741px] md:h-[151px] md:w-[741px] ${arrowPatternPosition}`}
         loading="lazy"
       />
 

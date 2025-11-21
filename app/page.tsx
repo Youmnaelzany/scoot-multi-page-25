@@ -19,6 +19,8 @@ export default function Home() {
               pattern={item.pattern}
               patternPosition={item.patternPosition}
               specialClass={item.specialClass}
+              arrowPattern={item.arrowPattern}
+              arrowPatternPosition={item.arrowPatternPosition}
             />
           )
         )}

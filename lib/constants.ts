@@ -40,6 +40,9 @@ export const SCOOT_PROS = [
     specialClass: [
       "flex flex-col items-center justify-center gap-14 lg:gap-0 text-center lg:justify-between lg:text-left lg:flex-row-reverse relative overflow-hidden px-7 md:px-10 lg:pl-16",
     ],
+    arrowPattern: "/patterns/left-downward-arrow.svg",
+    arrowPatternPosition:
+      "absolute top-60 -right-22 md:-right-41 md:top-79 z-10 lg:-right-6 lg:top-73",
   },
   {
     id: 2,
@@ -52,6 +55,9 @@ export const SCOOT_PROS = [
     specialClass: [
       "flex flex-col items-center justify-center gap-14 text-center lg:justify-between lg:text-left lg:flex-row relative overflow-hidden px-7 md:px-10 lg:pr-16",
     ],
+    arrowPattern: "/patterns/right-arrow.svg",
+    arrowPatternPosition:
+      "absolute top-3 -left-44 md:-left-24 md:top-3 z-10 lg:-left-19 lg:top-3 w-[452px] ",
   },
   {
     id: 3,
@@ -64,6 +70,9 @@ export const SCOOT_PROS = [
     specialClass: [
       "flex flex-col items-center justify-center gap-14 text-center lg:justify-between lg:text-left lg:flex-row-reverse relative overflow-hidden px-7 md:px-10 lg:pl-16",
     ],
+    arrowPattern: "/patterns/left-downward-arrow.svg",
+    arrowPatternPosition:
+      "absolute top-30 -right-22 md:-right-83 md:top-19 z-10 ",
   },
   {
     id: 4,
@@ -76,6 +85,9 @@ export const SCOOT_PROS = [
     specialClass: [
       "flex flex-col items-center justify-center gap-14 text-center lg:justify-between lg:text-left lg:flex-row-reverse relative overflow-hidden px-7 md:px-10 lg:pl-16",
     ],
+    arrowPattern: "/patterns/left-upward-arrow.svg",
+    arrowPatternPosition:
+      "absolute top-32 -right-14 md:-right-3 md:top-46 z-10 lg:-right-6 lg:top-73",
   },
   {
     id: 5,
@@ -88,6 +100,9 @@ export const SCOOT_PROS = [
     specialClass: [
       "flex flex-col items-center justify-center gap-14 text-center lg:justify-between lg:text-left lg:flex-row relative overflow-hidden px-7 md:px-10 lg:pr-16",
     ],
+    arrowPattern: "/patterns/right-arrow.svg",
+    arrowPatternPosition:
+      "absolute top-0 -left-22 md:-left-5  z-10 lg:-left-21  w-[452px]",
   },
   {
     id: 6,
@@ -100,6 +115,9 @@ export const SCOOT_PROS = [
     specialClass: [
       "flex flex-col items-center justify-center gap-14 text-center lg:justify-between lg:text-left lg:flex-row-reverse relative overflow-hidden px-7 md:px-10 lg:pl-16",
     ],
+    arrowPattern: "/patterns/left-downward-arrow.svg",
+    arrowPatternPosition:
+      "absolute top-36 -right-252 md:-right-12 md:top-66 z-10 lg:-right-6 lg:top-73",
   },
 ];
 
