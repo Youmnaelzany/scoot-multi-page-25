@@ -1,7 +1,7 @@
 export const NAV_LINKS = [
   { id: 1, label: "About", href: "/about" },
-  { id: 2, label: "Location", href: "/location" },
-  { id: 3, label: "Careers", href: "/careers" },
+  { id: 2, label: "Careers", href: "/careers" },
+  { id: 3, label: "Location", href: "/location" },
 ];
 
 export const APP_PROS = [

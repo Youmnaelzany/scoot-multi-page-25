@@ -44,7 +44,7 @@ export default function ScootProCard({
         role="presentation"
         width={741}
         height={151}
-        className={`pointer-events-none h-[151px] w-[741px] md:h-[151px] md:w-[741px] ${arrowPatternPosition}`}
+        className={`pointer-events-none ${arrowPatternPosition}`}
         loading="lazy"
       />
 
