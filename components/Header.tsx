@@ -8,7 +8,7 @@ import YellowButton from "./YellowButton";
 
 const Header = () => {
   return (
-    <header className="flex items-center justify-between px-7 py-8 md:px-10 lg:px-14">
+    <header className="fixed top-0 right-0 left-0 z-50 mx-auto flex max-w-7xl items-center justify-between bg-white px-7 py-8 md:px-10 lg:px-14">
       <div className="flex items-center md:gap-14">
         <Link href="/" className="cursor-pointer">
           <Image src="/logo.svg" alt="Scoot Logo" width={108} height={29} />

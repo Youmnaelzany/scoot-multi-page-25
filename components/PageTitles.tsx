@@ -13,7 +13,7 @@ const PageTitles = ({
     <section
       aria-label="Page Title"
       className={cn(
-        "flex h-[160px] items-center justify-center md:h-[200px] md:justify-between md:pl-10 lg:pl-14",
+        "flex h-[160px] w-full items-center justify-center overflow-hidden md:h-[200px] md:justify-between md:pl-10 lg:pl-14",
         className
       )}
     >

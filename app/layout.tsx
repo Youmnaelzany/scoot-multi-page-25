@@ -38,7 +38,7 @@ export default function RootLayout({
         className={`${lexendDeca.variable} ${spaceMono.variable} mx-auto max-w-7xl antialiased`}
       >
         <Header />
-        {children}
+        <div className="mt-26">{children}</div>
         <SignUp />
         <Footer />
       </body>

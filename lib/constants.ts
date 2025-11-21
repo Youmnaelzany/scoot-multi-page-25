@@ -35,6 +35,11 @@ export const SCOOT_PROS = [
     title: "Easy to use riding telemetry",
     description:
       "The Scoot app is available with riding telemetry. This means it can show you your average speed, how long you've been using the scooter, your traveling distance, and many more things all in an easy to use app.",
+    pattern: "/patterns/circle.svg",
+    patternPosition: "absolute lg:-right-88 md:-right-79 top-0 z-10",
+    specialClass: [
+      "flex flex-col items-center justify-center gap-14 lg:gap-0 text-center lg:justify-between lg:text-left lg:flex-row-reverse relative overflow-hidden px-7 md:px-10 lg:pl-16",
+    ],
   },
   {
     id: 2,
@@ -42,6 +47,11 @@ export const SCOOT_PROS = [
     title: "Coming to a city near you",
     description:
       "Scoot is available in 4 major cities so far. We&apos;re expanding rapidly, so be sure to let us know if you want to see us in your hometown. We&apos;re aiming to let our scooters loose on 23 cities over the coming year.",
+    pattern: "/patterns/circle.svg",
+    patternPosition: "absolute lg:-left-88 md:-left-79 top-0 z-10",
+    specialClass: [
+      "flex flex-col items-center justify-center gap-14 text-center lg:justify-between lg:text-left lg:flex-row relative overflow-hidden px-7 md:px-10 lg:pr-16",
+    ],
   },
   {
     id: 3,
@@ -49,27 +59,47 @@ export const SCOOT_PROS = [
     title: "Zero hassle payments",
     description:
       "Our payment is as easy as one two three. We accept most credit cards and debit cards. You can also link your PayPal account inside the app. Need to pay later? No worries! You can defer payment for up to a month.",
+    pattern: "/patterns/circle.svg",
+    patternPosition: "absolute lg:-right-88 md:-right-79 top-0 z-10",
+    specialClass: [
+      "flex flex-col items-center justify-center gap-14 text-center lg:justify-between lg:text-left lg:flex-row-reverse relative overflow-hidden px-7 md:px-10 lg:pl-16",
+    ],
   },
   {
     id: 4,
-    icon: "/images/payments.jpg",
+    icon: "/images/digital-era.jpg",
     title: "Mobility for the digital era",
     description:
       "Getting around should be simple (and even fun!) for everyone. We embrace technology to provide low cost, smart access to scooters at your fingertips.",
+    pattern: "/patterns/circle.svg",
+    patternPosition: "absolute lg:-right-88 md:-right-79 top-0 z-10",
+    specialClass: [
+      "flex flex-col items-center justify-center gap-14 text-center lg:justify-between lg:text-left lg:flex-row-reverse relative overflow-hidden px-7 md:px-10 lg:pl-16",
+    ],
   },
   {
     id: 5,
-    icon: "/images/payments.jpg",
+    icon: "/images/better-living.jpg",
     title: "Better urban living",
     description:
       "We&apos;re helping connect cities and bring people closer together. Our scooters are also fully-electric and we offset the minimal carbon footprint for each ride.",
+    pattern: "/patterns/circle.svg",
+    patternPosition: "absolute lg:-left-88 md:-left-79 top-0 z-10",
+    specialClass: [
+      "flex flex-col items-center justify-center gap-14 text-center lg:justify-between lg:text-left lg:flex-row relative overflow-hidden px-7 md:px-10 lg:pr-16",
+    ],
   },
   {
     id: 6,
-    icon: "/images/payments.jpg",
+    icon: "/images/join-us.jpg",
     title: "Care to join our mission?",
     description:
       "We&apos;re always looking for ambitious individuals to help us on our journey. If you&apos;re passionate about our mission to provide clean, accessible transport to improve urban living we want to hear from you!",
+    pattern: "/patterns/circle.svg",
+    patternPosition: "absolute lg:-right-88 md:-right-79 top-0 z-10",
+    specialClass: [
+      "flex flex-col items-center justify-center gap-14 text-center lg:justify-between lg:text-left lg:flex-row-reverse relative overflow-hidden px-7 md:px-10 lg:pl-16",
+    ],
   },
 ];
 
